@@ -1,0 +1,125 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="styleSEA.css">
+	<meta charset="UTF-8">
+	  <link href='https://fonts.googleapis.com/css?family=BIZ UDMincho' rel='stylesheet'>
+	  <link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+
+
+	</head>
+	<body>
+	<div class="navbar">
+		<a class="active" href="SEA Project.html"> Wasantha's Family Childcare</a>
+		<a href="#Gallery"> GALLERY </a>
+		<a href="#Services"> SERVICES </a>
+	</div>
+
+    <div class="main2">
+        <div class= "Services">
+            <p class= "Hours">
+                Our hours are from 7 AM to 6:30 PM, Monday through Friday
+            </p>
+            <script>
+                {
+                    function checkBusinessHours() {
+                        // get the current date and time
+                        const now = new Date();
+                
+                        const dayOfWeek = now.getDay();
+                
+                        // get the current hour and minute
+                        const hour = now.getHours();
+                        const minute = now.getMinutes();
+                
+                        if (dayOfWeek >= 1 && dayOfWeek <= 5 && hour >= 7 && hour < 18 || hour === 18 && minute <= 30) {
+                          document.getElementById("status").innerHTML = "We're currently open! Come on in!";
+                        } else {
+                          document.getElementById("status").innerHTML = "Sorry, we're currently closed. Come and check us out during our regular business hours.";
+                        }
+                      }
+                }
+                </script>
+                
+                <p>Click the button below to check if we're currently open:</p>
+                <button class="Button" onclick="checkBusinessHours()">Check Business Hours</button>
+                <p id="status"> </p>
+
+                <p class= "Hours">
+                    Our hours are from 7 AM to 6:30 PM, Monday through Friday
+                </p>
+
+                <p class= "Benefits">
+                    We accept CCRC benefits <br>
+                    Additionally, snacks and lunch are provided for full time care.
+                </p>
+                
+                
+            <p class= "TimeCare">
+                We offer both full time and part time care <br>
+                Full time: 29 to 40 hours weekly, or six or more hours per day <br>
+                Part-time: Less than 29 hours per week or less than 6 hours per day<br><br>
+            </p>
+
+
+            <table border='1'>
+            <tr>
+                <td>Type of Child Care</td>
+                <td>Weekly</td>
+                <td>Daily</td><br>
+            </tr>
+            <tr>
+                <td>Full time under 2 years old (minimum 5 days)</td>
+                <td> $275.00 </td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Part-time under 2 years old (minimum 3 days)</td>
+                <td> N/A </td>
+                <td> $60</td>
+            </tr>
+            <tr>
+                <td>Full time 2-5 years old (minimum 5 days)</td>
+                <td> $250.00 </td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Part time 2-5 years old (minimum 3 days)</td>
+                <td> N/A </td>
+                <td>$55.00</td>
+            </tr>
+            <tr>
+                <td>Full time 6 years old and up (minimum 5 days)</td>
+                <td> $225.00 </td>
+                <td> N/A</td>
+            </tr>
+            <tr>
+                <td>Part time 6 years old and up (minimum 3 days)</td>
+                <td> N/A </td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>Afterschool Full time 4-12 years old (5 days)</td>
+                <td> $200.00 </td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Afterschool Part-time 4-12 years old (minimum 3 days)</td>
+                <td> $200.00 </td>
+                <td>N/A</td>
+            </tr>
+            </table>
+            
+        </div>
+    </div>
+        <div class="botnavbar">
+            <!-- <p>Contact Information:</p>> -->
+            <a href="https://www.snapchat.com/en-US"><img src ="snapchat.svg"  id="snapchat"></a>
+            <a href="https://twitter.com/"target="_Blank"><img src ="twitter.svg"  id="twitter"></a>
+            <a href="https://www.instagram.com/"><img src ="instagram.svg"  id="instagram"></a>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,319 @@
+body
+{
+background-color: #f8eccc;
+margin:0;
+	
+}
+
+.main
+{
+  padding: 16px;
+  margin-top: 30px;
+  height: 1000px;	
+  font-family: "Aleo";
+}
+
+.navbar a.active
+{
+	float: left;
+	font-size: 25px;
+}
+
+
+.navbar
+{
+  font-family: 'BIZ UDMincho';
+  overflow: hidden;
+  background-color: #f8eccc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  border-bottom: 3px solid #ca384a;
+  border-radius: 22px; 
+  opacity: 1;
+  z-index: 3;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 18px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ca384a;
+}
+/* Main Image */
+img.MI
+{
+	width:476px;
+	height:322px;
+  position: relative;
+  border: 3px solid #ca384a;
+}
+
+
+.FC {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: 50px;
+}
+
+p.AB
+{
+  font-size: 1.5vw;
+  display: inline-block;
+  align-items: right;
+  width: 50%;
+  border: 3px solid #ca384a;
+  padding: 15px 15px;
+}
+
+
+/* Pop-Up Images */
+p.Hover
+{
+  font-size: 22px;
+}
+
+.flex-container {
+  display: flex;
+  bottom: 30px;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: 60px;
+  
+}
+
+.flex-container > div {
+  margin: 30px;
+}
+
+.container {
+  position: relative;
+  width: 20%;
+  z-index: 1;
+  text-align: center;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover img.CH1 {
+	background-color: #ca384a;
+  opacity: 0.2;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.container:hover p.P1 {
+  opacity: 1;
+}
+
+p.P1
+{
+	opacity: 0;
+  text-align: center;
+  border:2px solid #ca384a;
+  border-radius: 10px;
+  display: inline-block;
+  position: flex;
+  font-size:1.1vw;
+  height:100%;
+  display: block;
+  position: relative;
+  bottom: 285px;
+  left: 135px;
+
+}
+
+
+img.CH1 
+{
+	width:296px;
+	height:443px;
+  width:100%;
+  /* top: 30px; */
+  height: auto;
+  border: 3px solid #ca384a;
+  border-radius: 10px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+}
+
+/* IMAGE 2 */
+
+.container2 {
+  position: relative;
+  width: 20%;
+  z-index: 1;
+}
+
+
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.container2:hover img.CH2 {
+	background-color: #ca384a;
+  opacity: 0.2;
+}
+
+.container2:hover .middle2 {
+  opacity: 1;
+}
+
+.container2:hover p.P2 {
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+p.P2
+{
+	opacity: 0;
+  text-align: center;
+  border:2px solid #ca384a;
+  border-radius: 10px;
+  display: inline-block;
+  font-size:1.1vw;
+  height:100%;
+  display: block;
+  position: relative;
+  bottom: 230px;
+  left: 135px;
+}
+
+
+
+img.CH2 {
+	width:391px;
+	height:588px;
+  width:100%;
+  /* top: 30px; */
+  height: auto;
+  border: 3px solid #ca384a;
+  border-radius: 10px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+  flex: 1;
+}
+
+/* Bottom Nav Bar */
+
+.botnavbar {
+  background:transparent;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  border-top: 3px solid #ca384a;
+}
+
+
+
+.botnavbar a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#snapchat
+{
+  height: 20;
+  width: 20;
+}
+
+#twitter
+{
+  height: 20;
+  width: 20;
+}
+
+#instagram
+{
+  height: 20;
+  width: 20;
+}
+
+
+
+/* Services */
+.Hours
+{
+  margin-top: 50px;
+}
+
+.table
+{
+  padding-bottom: 20px;
+}
+
+.main2
+{
+  padding: 16px;
+  margin-top: 30px;
+  height: 800px;	
+  font-family: "Aleo";
+}
+
+.Button
+{
+  background-color: royalblue;
+  color: white;
+  border-radius: 3px;
+  border: 2px solid #394ab4;
+  font-family: "Aleo";
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.Button:hover {
+  opacity: 1;
+}
+
+ /* Style for the gallery container */
+ .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style for the gallery items */
+.gallery-item {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+/* Style for the gallery item images */
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
